@@ -1,0 +1,49 @@
+html,body{
+  height:100%;
+}
+
+body{
+
+}
+div#root{
+  height:100%;
+  margin:0;
+  padding:0;
+  position:relative;
+
+}
+
+.HeroPage{
+  background:url('https://wallpaperaccess.com/full/622523.jpg') center / cover;
+  position: relative;
+
+}
+
+  .HeaderText {
+    padding-top:10%;
+    text-align: center;
+    position:relative;
+    font-weight: bold;
+    font-size:3.5em;
+  }
+  .HeaderText1{
+    text-align: center;
+    position:relative;
+    margin-top:30px;
+  }
+  .MainPageButtons{
+    margin-left:40%;
+    margin-top:10%;
+    padding-bottom:10%;
+  }
+  .buttonOne{
+    float:left;
+    margin-right:20px;
+  }
+
+
+  @media screen and (max-width: 800px) {
+    div#root {
+      width: 100%;
+    }
+  }

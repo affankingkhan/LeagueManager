@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+   name: nodeapp
+spec:
+   replicas: 7
+   template: 
+      metadata:
+         labels:
+            name: nodeapp
+      spec:
+         containers:
+         - name: leaguemanager
+           image: gcr.io/leaguemanager/nodeapp:1.0
+           imagePullPolicy: IfNotPresent
+           ports:
+           - containerPort: 5000
