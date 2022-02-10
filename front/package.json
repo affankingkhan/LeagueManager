@@ -46,6 +46,6 @@
   },
   "devDependencies": {
     "koa2-cors": "^2.0.6",
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   }
 }
